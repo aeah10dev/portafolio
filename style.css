@@ -1,0 +1,533 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*Sección Menu*/
+.menu{
+    background-color: #e7ecf8;
+}
+.vector_header{
+    width: 40px;
+    padding-right: 5px;
+}
+.menu__title{
+    font-weight: 600;
+    font-size: 25px;
+}
+.menu__list{
+    display: none;
+}
+
+/*Sección Title*/
+.title__profile{
+    width: 60vw;
+    border-radius: 100%;
+}
+.title__container{
+    height: 300px;
+}
+.title__bio{
+    padding-top: 5vw;
+    font-size: 40px;
+    font-weight: 800;
+}
+.title__subsection{
+    font-size: 25px;
+}
+.title__network{
+    font-weight: 600;
+    font-size: 18px;
+}
+.title__network__item:hover{
+    border-bottom: 1px solid black;
+}
+.parrafo{
+    background-color: #1b66c8;
+    color: white;
+    width: 200px;
+}
+
+
+/*Sección About*/
+.about{
+    background-color: #e1eaf8;
+}
+.about__title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.about__title:hover{
+    border-bottom: 1px solid black;
+}
+.about__paragraph{
+    padding-top: 3vw;
+    font-size: 20px;
+}
+.about_img{
+    width: 35vw;
+    padding-top: 5vw;
+}
+
+/*Skills*/
+.skills__title{
+    font-size: 40px;
+    font-weight: 800;
+    align-self: center;
+}
+.skills__box{
+    width: 30vw;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
+.skills__box:hover{
+    box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.1);
+    color: #1b66c8;
+    background-color: #434344;
+}
+.skills__name{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+/*Sección Hobbies*/
+.hobbies__title{
+    font-size: 40px;
+    font-weight: 800;
+    align-self: center;
+}
+.hobbies__box{
+    width: 30vw;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
+.hobbies__box:hover{
+    box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.1);
+    color: #1b66c8;
+}
+.hobbies__name{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* Formacion */
+.academic{
+    background-color:  #e1eaf8;
+}
+.academic__title{
+    font-size: 40px;
+    font-weight: 800;
+    align-self: center;
+}
+.academic__courses__item__img{
+    background-color: white;
+}
+.academic__courses__item__title{
+    font-weight: 800;
+    font-size: 23px;
+}
+.academic__courses__item__subtitle{
+    font-size: 20px;
+}
+
+/*Experiencia Profesional*/
+.experience__section__title{
+    font-size: 40px;
+    font-weight: 800;
+    align-self: center;
+}
+.experience__title{
+    font-weight: 800;
+    font-size: 23px;
+}
+.experience__text{
+    font-size: 20px;
+}
+.experience__repo{
+    border-radius: 10px;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+
+    margin-right: 3vw;
+}
+.experience__demo{
+    border-radius: 10px;
+    border: 1px solid #2A7AE4;
+    background-color: #2A7AE4;
+    color: white;
+}
+
+/*Contacto*/
+
+/*Form*/
+.formcontato{
+    background-color:  #e1eaf8;
+}
+.formcontato--esquerda{
+    display: none;
+}
+.formcontato__title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.formcontato__subtext{
+    font-size: 20px;
+}
+.input_container{
+    background-color: white;
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+    box-shadow: 0 1.5px rgb(228, 228, 228);
+    color: #cdcdcd;
+}
+input{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    border:0;
+    outline: 0;
+}
+textarea{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    border: 0;
+}
+.container_mensaje{
+    outline: 0px;
+}
+
+
+ /*Evento de input.nombre seleccionado*/
+    /*cuando no esta seleccionado*/
+    .formcontato__input{
+        display: none;
+    }
+    /*cuando esta seleccionado*/
+    .nombreSelect{
+        display: initial;
+    }
+    .emailSelect{
+        display: initial;
+    }
+    .asuntoSelect{
+        display: initial;
+    }
+
+    .input_textselect{
+        color: #2A7AE4;
+        font-size: 14px;
+    }
+    .input_containerselect{
+        border-bottom: 1.5px solid #1b66c8;
+    }
+    .input_textselected{
+        color: #cdcdcd;
+    }
+    .input_containerselected{
+        border-bottom:none;
+    }
+
+.btn_contacto{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #2A7AE4;
+    background-color: #2A7AE4;
+    color: white;
+ }
+
+ /*Evento de submit pantalla de mensaje enviado*/
+    /*cuando no esta seleccionado*/
+    .oculto {
+        display: none;
+        width: 80vw;
+      }
+      
+    /* Estilo para el mensaje de éxito */
+    .img_exito{
+        align-self: center;
+        width: 20vw;
+    }
+    #mensaje-exito {
+        font-size: 25px;
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        padding: 20px;
+        border: 1px solid #00b400;
+        box-shadow: 0 0 1px 100vw rgba(0, 0, 0, 0.6);
+        z-index: 9999;
+    }
+    .btn_exito{
+        font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid #2ae462;
+        background-color: #048100;
+        color: rgb(255, 255, 255);
+        margin-top: 20px;
+        padding: 2vw 6vw;
+    }
+
+/*boton arriba*/
+#btnRegresar{
+    position: fixed;
+    top: 94%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(218, 218, 218, 0.3);
+    padding: 8px 10px;
+    border: 1.5px solid #030303;
+    border-radius: 15px;
+    z-index: 9999;   
+}
+.img_arriba{
+    width: 30px;
+}
+
+/*rrss*/
+.rrss{
+    background-color:  #e1eaf8;
+}
+.img_class{
+    width: 50px;
+}
+
+/*footeer*/
+.footer{
+    background-color: #000;
+}
+.footer_text{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.parraf{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 200px;
+}
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    /* Menú */
+        .menu__title{
+            font-size:24px ;
+        }
+        .menu__list__item__contacto{
+            font-size:20px;
+            font-weight: 600;
+        }
+
+    /*title*/
+    .title__profile{
+        width: 250px;
+        height: 250px;
+    }
+    .title__container{
+        height: 250px;
+    }
+    .title__bio{
+        font-size: 35px;
+    }
+
+    /*Sección About*/
+        .about__title{
+            font-size: 40px;
+            font-weight: 800;
+        }
+        .about__paragraph{
+            padding-top: 3vw;
+        }
+        .about_img{
+            width: 20vw;
+            padding-top: 3vw;
+        }
+
+    /*Skills*/
+        .skills__box{
+            width: 20vw;
+            box-shadow: 5px 1px 10px 2px rgba(0, 0, 0, 0.1);
+        }
+    
+    /*Hobbies*/
+        .hobbies__box{
+            width: 20vw;
+            box-shadow: 5px 1px 10px 2px rgba(0, 0, 0, 0.1);
+        }
+    /*Formación Académica*/
+        .academic__courses__item__img{
+            width: 15vw;
+        }
+        .academic__courses__item__title{
+            font-weight: 800;
+            font-size: 17px;
+        }
+        .academic__courses__item__subtitle{
+            font-size: 18px;
+        }
+    /*Experiencia Profesional*/
+    .experience__repo{
+        border-radius: 10px;
+        border: 1px solid #2A7AE4;
+        color: #2A7AE4;
+    
+        margin-right: 3vw;
+    }
+    .experience__demo{
+        border-radius: 10px;
+        border: 1px solid #2A7AE4;
+        background-color: #2A7AE4;
+        color: white;
+    }
+
+
+}
+
+
+/*PC*/
+@media (min-width: 1200px) {
+    /*Menu*/
+    .menu{
+        height: 50px;
+    }
+    .menu__list__item__contacto{
+        display: none;
+    }
+    .menu__title{
+        font-size:18px ;
+    }
+    .menu__list{
+        display:initial;
+        font-size: 17px;
+        align-items: center;
+    }
+    .menu__list__item{
+        padding: 1vw;
+    }
+    .menu__list__item:hover{
+        font-weight: 600;
+    }
+    .menu__list__contact{
+        font-weight: 600;
+    }
+    .menu_email{
+        display: none;
+    }
+
+
+    /*Titulo*/
+    .title__profile{
+        width: 400px;
+        height: 400px;
+    }
+    .title__bio{
+        font-size: 4vw;
+        padding-bottom: 2vw;
+        font-weight: 800;
+    }
+    .title__subsection{
+        font-size: 2vw;
+        padding-bottom: 2vw;
+    }
+
+    /*Sección sobre mi*/
+    .about__paragraph{
+        padding-top: 3vw;
+    }
+    .about_img{
+        width: 10vw;
+        padding-top: 3vw;
+    }
+    .about__paragraph{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .title__bio{
+        height: 700px;
+    }
+    /*Skills*/
+
+    /*Hobbies*/
+    
+    /*Formación Académica*/
+    .academic__courses__item__title{
+        font-weight: 800;
+        font-size: 20px;
+    }
+    .academic__courses__item__subtitle{
+        font-size: 18px;
+    }
+    .academic__courses__item__img:hover{
+        box-shadow: 5px 1px 10px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    
+    /*Experiencia Profesional*/
+    .experience__repo{
+        margin-right: 1.5vw;
+    }
+
+    .experience__repo:hover{
+        background-color: rgb(255, 136, 0);
+        color: white;
+
+        box-shadow: 2px 5px 1px 2px black;
+    }
+    .experience__demo:hover{
+        background-color: green;
+        color:white;
+        box-shadow: 2px 5px 1px 2px black;
+    }
+
+    /*Contacto*/
+    .formcontato--esquerda{
+        display: initial;
+    }
+    .formcontato__img{
+        width: 501.5px;
+    }
+    .btn_contacto:hover{
+        background-color: green;
+        color:white;
+        box-shadow: 2px 5px 1px 2px black;
+    }
+    .img_exito{
+        width: 100px;
+    }
+    .btn_exito{
+        padding: 1vw 3vw;
+    }
+
+    /*boton arriba*/
+    #btnRegresar{
+        top: 94%;
+        left: 97%;
+    }
+
+    /*Footer*/
+
+}
