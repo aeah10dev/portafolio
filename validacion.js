@@ -153,7 +153,7 @@ setInterval(() => {
 
 //Cambio de palabras en el footer
 const miParraf = document.getElementById('miParraf');
-const maspalabras = ['Develop', 'Created', 'Coded', 'Created'];
+const maspalabras = ['Developed', 'Created', 'Coded', 'Created'];
 
 let indi = 0;
 
